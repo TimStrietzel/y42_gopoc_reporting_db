@@ -1,8 +1,160 @@
 {
-  "class": "go.GraphLinksModel",
-  "nodeCategoryProperty": "category",
+  "class": "GraphLinksModel",
   "linkFromPortIdProperty": "frompid",
   "linkToPortIdProperty": "topid",
-  "nodeDataArray": [],
-  "linkDataArray": []
+  "nodeDataArray": [
+    {
+      "key": "5e17789e-84e7-4d3b-8e58-b2687fd67ce5",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "5e17789e-84e7-4d3b-8e58-b2687fd67ce5",
+        "title": "pseudo_ga_tracking_mock-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "g_sheet_test1",
+        "transformObject": {
+          "source": "src/Integrations/g_sheet_test1",
+          "table": "src/Integrations/g_sheet_test1/pseudo_ga_tracking_mock-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-318 -167"
+    },
+    {
+      "key": "284dc468-5231-4f85-9465-f470af5f895f",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "284dc468-5231-4f85-9465-f470af5f895f",
+        "title": "gsheet_tracking_test_my_output",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "gsheet_tracking_test_my_output",
+          "fields": [
+            {
+              "target": "sdc_spreadsheet_id",
+              "source": "sdc_spreadsheet_id",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "display_name": "sdc_spreadsheet_id",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "sdc_sheet_id",
+              "source": "sdc_sheet_id",
+              "type": "INTEGER",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "display_name": "sdc_sheet_id",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "sdc_row",
+              "source": "sdc_row",
+              "type": "INTEGER",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "display_name": "sdc_row",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id",
+              "source": "id",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "display_name": "id",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "event_id",
+              "source": "event_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "display_name": "event_id",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "event_type",
+              "source": "event_type",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "display_name": "event_type",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "event_source",
+              "source": "event_source",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "display_name": "event_source",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "user_tracking_id",
+              "source": "user_tracking_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "display_name": "user_tracking_id",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "user_os",
+              "source": "user_os",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "display_name": "user_os",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "20.471074380165305 -214.60377358490567"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "5e17789e-84e7-4d3b-8e58-b2687fd67ce5",
+      "to": "284dc468-5231-4f85-9465-f470af5f895f",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ]
 }
