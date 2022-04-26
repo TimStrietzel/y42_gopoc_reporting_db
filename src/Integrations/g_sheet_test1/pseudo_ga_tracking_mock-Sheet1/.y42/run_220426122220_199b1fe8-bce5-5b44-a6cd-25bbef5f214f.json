@@ -1,6 +1,6 @@
 {
   "request_id": "220426122220_199b1fe8-bce5-5b44-a6cd-25bbef5f214f",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "7293b7ae-5941-47e5-886e-b95c87a840a1",
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
@@ -54,7 +54,61 @@
     },
     "write_disposition": "TRUNCATE",
     "external_id": "88562369-7a40-4940-9aeb-2a2619cbd5c2",
-    "storage_file": "gs://y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9/userUploads/v2/tap-google-sheets/56b9662a-1726-4db6-8b31-2855d30c768b"
+    "storage_file": "gs://y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9/userUploads/v2/tap-google-sheets/56b9662a-1726-4db6-8b31-2855d30c768b",
+    "import_finished_at": "2022-04-26T12:22:52.410395+00:00",
+    "row_count": 100,
+    "current_import_row_count": 100,
+    "size_in_bytes": 10920,
+    "columns": [
+      {
+        "field_name": "sdc_spreadsheet_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_sheet_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "sdc_row",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "event_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "event_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "event_source",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "user_tracking_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "user_os",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220426122220_199b1fe8-bce5-5b44-a6cd-25bbef5f214f",
+    "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9&t=220426122220_199b1fe8-bce5-5b44-a6cd-25bbef5f214f&page=table"
   },
-  "_signature": "RRI7sqnc9NKfJHWikqGb3iMJrM4JVR72SEReYFm8+BfSatBn/IqHVCzhGEXZ6EIdMB6E3yA5LsvgKQoGANTVAg=="
+  "finished_at": "2022-04-26T12:22:52.410512+00:00",
+  "_signature": "7vfi2rKlOkMAqJo7n5rRdD10JOmQRIYzw6Eu1vf/jScW0jvGub+rQSGULoMYQp43HEOt9Le/4SGGAcCW9w0LBw=="
 }
