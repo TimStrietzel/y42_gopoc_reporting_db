@@ -1,6 +1,6 @@
 {
   "request_id": "220426131834_94761c8d-de80-5065-9466-602ef9b909e2",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
     "source_settings": {
@@ -34,5 +34,33 @@
     }
   },
   "created_at": "2022-04-26T13:18:34.915897+00:00",
-  "_signature": "7R0wVcJ6lHGbMg1qwvlNIRH4bkgmDY/nEHeOUjE8mR7SaE/a2i1bGcaqCvHM1QQPV+616CSC7oWaGF9gbg9ZBw=="
+  "finished_at": "2022-04-26T13:18:51.928336+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-04-26T13:18:51.928219+00:00",
+    "row_count": 100,
+    "current_import_row_count": 100,
+    "size_in_bytes": 2507,
+    "external_id": "de943cf6-2c72-4d97-bda3-3d5f598ff391",
+    "columns": [
+      {
+        "field_name": "event_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "event_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "user_tracking_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220426131834_94761c8d-de80-5065-9466-602ef9b909e2",
+    "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9&t=220426131834_94761c8d-de80-5065-9466-602ef9b909e2&page=table"
+  },
+  "_signature": "hYcQbAgqkQ+fY5oTpFb2oSXNr89XviuNFdnMwK6V00knyI3KZNE643oV7hcQJ8Bs367f7uC1CaoXKaUHblZxBA=="
 }
