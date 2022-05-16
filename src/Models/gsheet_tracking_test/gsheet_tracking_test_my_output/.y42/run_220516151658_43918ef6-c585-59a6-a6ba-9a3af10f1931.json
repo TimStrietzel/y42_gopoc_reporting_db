@@ -1,6 +1,6 @@
 {
   "request_id": "220516151658_43918ef6-c585-59a6-a6ba-9a3af10f1931",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
     "source_settings": {
@@ -34,5 +34,8 @@
     }
   },
   "created_at": "2022-05-16T15:16:58.757356+00:00",
-  "_signature": "+9ZOjyXNcr+//wh38GBfVBIdGIAjSYeaMbr1tzYIh2oEiy7NwGoeA6AhdFdWoAfF/oni+S7IZ78geCLIxBbeCw=="
+  "failed_at": "2022-05-16T15:17:37.029369+00:00",
+  "error_code": 500,
+  "error_message": "404 GET https://bigquery.googleapis.com/bigquery/v2/projects/y42-solution-engineering/datasets/y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d/tables/220516151658_43918ef6-c585-59a6-a6ba-9a3af10f1931?prettyPrint=false: Not found: Table y42-solution-engineering:y42_gotemplatespace1_057acf029116488dbbd8344cf02e667d.220516151658_43918ef6-c585-59a6-a6ba-9a3af10f1931",
+  "_signature": "mCIC9JbEgxaKGawF5pezxIhxM/6JxiPyTaMOfEO1jQ5j1hlmCSYUP8B6I/tHEnx++vGzTo9QWq40IWuWSH4wBw=="
 }
