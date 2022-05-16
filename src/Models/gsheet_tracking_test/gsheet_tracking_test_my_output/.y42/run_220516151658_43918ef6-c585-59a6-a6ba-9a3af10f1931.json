@@ -1,0 +1,38 @@
+{
+  "request_id": "220516151658_43918ef6-c585-59a6-a6ba-9a3af10f1931",
+  "status": "pending",
+  "request": {
+    "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/ui_model/0.0.0/source"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/ui_model/0.0.0/table",
+      "output_key": "284dc468-5231-4f85-9465-f470af5f895f"
+    },
+    "created_at": "2022-05-16T15:16:58.757356+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/gsheet_tracking_test/gsheet_tracking_test_my_output",
+        "id": "15:687cdbb8-66b6-4f2d-85a4-5ebd747583bb",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "TimStrietzel",
+        "repo": "y42_gopoc_reporting_db",
+        "commit_sha": "3f410623a5102935d776a970a924ddd1840ffcc3"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "79",
+      "trial": false
+    }
+  },
+  "created_at": "2022-05-16T15:16:58.757356+00:00",
+  "_signature": "+9ZOjyXNcr+//wh38GBfVBIdGIAjSYeaMbr1tzYIh2oEiy7NwGoeA6AhdFdWoAfF/oni+S7IZ78geCLIxBbeCw=="
+}
