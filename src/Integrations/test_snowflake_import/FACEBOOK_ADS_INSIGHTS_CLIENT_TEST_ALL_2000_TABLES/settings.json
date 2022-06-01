@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "REACH",
+    "CTR",
+    "CAMPAIGN_ID",
+    "POST_ENGAGEMENT",
+    "AMOUNT_SPEND",
+    "CAMPAIGN_NAME",
+    "FREQUENCY",
+    "CPC",
+    "AMOUNT_SOCIAL_SPEND",
+    "IMPRESSIONS"
+  ],
+  "import": "FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES"
+}
