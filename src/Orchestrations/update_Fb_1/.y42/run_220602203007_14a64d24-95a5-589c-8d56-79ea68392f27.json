@@ -46,20 +46,24 @@
     ],
     "visualDataArray": [],
     "nodeStatusArray": {
-      "2bf1d46f-5ab3-4894-b3e1-60b14e995629": "pending"
+      "2bf1d46f-5ab3-4894-b3e1-60b14e995629": "ready",
+      "78c731cb-e84d-4c88-9eeb-78077d449c71": "pending"
     },
     "jobs": {
       "2bf1d46f-5ab3-4894-b3e1-60b14e995629": {
         "run": "src/Integrations/test_snowflake_import/FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL/.y42/run_220602203008_968093eb-f776-583a-b512-0773a8f59416.json"
+      },
+      "78c731cb-e84d-4c88-9eeb-78077d449c71": {
+        "run": "src/Models/UI/facebook_model/facebook_model/.y42/run_220602205230_e24d1a21-585c-5294-bfc1-20824476e7d3.json"
       }
     }
   },
   "created_at": "2022-06-02T20:30:07.132582+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-06-02T20:30:08.665575+00:00",
+  "updated_at": "2022-06-02T20:52:30.815705+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "af8184b8-4c8f-4128-afcb-4ccd331cf6a6",
-  "_signature": "yBVpjicrf+n/enq9VbC+m3KNmOhgrveWJViB5qtX5rYYrP1HPUdbf2xj70/HsUtD3IfbejXaYGA1lbwkTQYhCw=="
+  "_lock_token": "344ad576-1aa1-465d-807c-70b1afd85fa8",
+  "_signature": "fcGZXy7SHPAx2KDEcGW5Mcz5YrQRXwLInfjPfZiT4uCAolM3fMlQFyHpABNDJZWh5Nu0BhjxewJRhhsleiEnDg=="
 }
