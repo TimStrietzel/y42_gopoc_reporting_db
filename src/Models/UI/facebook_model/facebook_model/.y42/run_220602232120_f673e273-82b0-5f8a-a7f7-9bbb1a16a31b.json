@@ -1,6 +1,6 @@
 {
   "request_id": "220602232120_f673e273-82b0-5f8a-a7f7-9bbb1a16a31b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
     "source_settings": {
@@ -36,5 +36,63 @@
     "previous_table_id": "cdc408c1970c2b2357773ace80302f9a"
   },
   "created_at": "2022-06-02T23:21:20.885561+00:00",
-  "_signature": "aAiwDYd9fgRUt4pjAfU83zpdLVktGkQ5VxYCXfwVLGIlMH8b9qjdOXuC33gdZRIXdfyaXzf6rmi8XXmF8SoAAg=="
+  "finished_at": "2022-06-02T23:21:35.233370+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-02T23:21:35.233256+00:00",
+    "row_count": 28000,
+    "current_import_row_count": 28000,
+    "size_in_bytes": 2196502,
+    "external_id": "ff8c6586-34ea-4bd6-a1b5-d52a5239aaf7",
+    "columns": [
+      {
+        "field_name": "reach",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "click_through_rate",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "amount_spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "frequency",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cost_per_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "4ca5f2a411e31a28d25094c0c66b4b6e",
+    "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9&t=4ca5f2a411e31a28d25094c0c66b4b6e&page=table"
+  },
+  "_signature": "cdzLShf36CA8zr54Dpwtbm0wBWroS3rZqBsT2PNetpIDtRwTdRPeBn9eKcf+hbvm5lzTJxMEtVyTWAO05qyOCg=="
 }
