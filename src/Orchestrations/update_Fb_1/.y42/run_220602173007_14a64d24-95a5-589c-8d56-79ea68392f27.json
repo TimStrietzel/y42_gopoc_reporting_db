@@ -48,14 +48,18 @@
     "nodeStatusArray": {
       "2bf1d46f-5ab3-4894-b3e1-60b14e995629": "pending"
     },
-    "jobs": {}
+    "jobs": {
+      "2bf1d46f-5ab3-4894-b3e1-60b14e995629": {
+        "run": "src/Integrations/test_snowflake_import/FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL/.y42/run_220602173008_6534eb3f-0a6e-53c0-8e33-6d603227aa45.json"
+      }
+    }
   },
   "created_at": "2022-06-02T17:30:07.841666+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-06-02T17:30:07.949900+00:00",
+  "updated_at": "2022-06-02T17:30:09.352951+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "19776ee0-7ea4-49c5-8a7b-aeadd0a91ff4",
-  "_signature": "OW/L721uApCid3vxmB08Xo7J542oOxA2SpKA4Rg+g+x8H7fiPh+1D99Kqh884rTVdBdWQmJw57k+Tk8EzNIdAg=="
+  "_lock_token": "eb719e48-5a2c-45bc-ab6d-ea266496453b",
+  "_signature": "sIE7asy1k2sXaKgYl3rd9avich4kVFZXBeJK9xJH9OClXpgvHSjTJIT+Ch6vSK4X+FxocBs7FBeDa6C+Ip/6Dw=="
 }
