@@ -1,0 +1,61 @@
+{
+  "run_id": "220602210007_14a64d24-95a5-589c-8d56-79ea68392f27",
+  "status": "pending",
+  "request": {
+    "target": {
+      "storage": {
+        "id": "15:687cdbb8-66b6-4f2d-85a4-5ebd747583bb",
+        "type": "githubapp",
+        "path": "/src/Orchestrations/update_Fb_1",
+        "branch": "main"
+      },
+      "info": {}
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "orchestration"
+    }
+  },
+  "details": {
+    "linkDataArray": [
+      {
+        "from": "2bf1d46f-5ab3-4894-b3e1-60b14e995629",
+        "to": "78c731cb-e84d-4c88-9eeb-78077d449c71"
+      }
+    ],
+    "nodeDataArray": [
+      {
+        "key": "2bf1d46f-5ab3-4894-b3e1-60b14e995629",
+        "path": "src/Integrations/test_snowflake_import/FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL",
+        "location": "0 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "78c731cb-e84d-4c88-9eeb-78077d449c71",
+        "path": "src/Models/UI/facebook_model/facebook_model",
+        "location": "524.0456949966158 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      }
+    ],
+    "visualDataArray": [],
+    "nodeStatusArray": {
+      "2bf1d46f-5ab3-4894-b3e1-60b14e995629": "pending"
+    },
+    "jobs": {}
+  },
+  "created_at": "2022-06-02T21:00:07.656667+00:00",
+  "finished_at": null,
+  "latest_pulse_at": null,
+  "updated_at": "2022-06-02T21:00:07.739981+00:00",
+  "canceled_at": null,
+  "failed_at": null,
+  "_lock_token": "94b3f0dc-6b9f-428b-b845-5b9bdd2da226",
+  "_signature": "c8V4AG3ruOd/Ve1clOZBoBh3HttOmPgVYrxIm2ADnStqeL3OFN/h8qhL4HPsLN5uOmh2iilYAoydozgVOmmfCg=="
+}
