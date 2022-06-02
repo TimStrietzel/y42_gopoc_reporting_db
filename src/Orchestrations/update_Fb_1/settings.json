@@ -1,7 +1,31 @@
 {
-  "cronExpression": "",
+  "cronExpression": "0/30 * 1/1 * *",
   "forceSchedule": false,
-  "linkDataArray": [],
-  "nodeDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "2bf1d46f-5ab3-4894-b3e1-60b14e995629",
+      "to": "78c731cb-e84d-4c88-9eeb-78077d449c71"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "2bf1d46f-5ab3-4894-b3e1-60b14e995629",
+      "path": "src/Integrations/test_snowflake_import/FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "78c731cb-e84d-4c88-9eeb-78077d449c71",
+      "path": "src/Models/UI/facebook_model/facebook_model",
+      "location": "524.0456949966158 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
