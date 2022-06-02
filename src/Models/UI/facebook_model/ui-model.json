@@ -1,5 +1,158 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "5d0836a3-6fe6-4c64-b17f-b30b0bd80cec",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "5d0836a3-6fe6-4c64-b17f-b30b0bd80cec",
+        "title": "FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL",
+        "transformationType": "INPUT",
+        "datasourceName": "test_snowflake_import",
+        "transformObject": {
+          "source": "src/Integrations/test_snowflake_import",
+          "table": "src/Integrations/test_snowflake_import/FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-440.3223140495868 -111.02736203580719"
+    },
+    {
+      "key": "4e78d7aa-b61d-4afd-a758-1ad924d99333",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "4e78d7aa-b61d-4afd-a758-1ad924d99333",
+        "title": "facebook_model",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "facebook_model",
+          "fields": [
+            {
+              "target": "reach",
+              "source": "reach",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "click_through_rate",
+              "source": "ctr",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "campaign_id",
+              "source": "campaign_id",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "post_engagement",
+              "source": "post_engagement",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "amount_spend",
+              "source": "amount_spend",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "campaign_name",
+              "source": "campaign_name",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "frequency",
+              "source": "frequency",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "cost_per_click",
+              "source": "cpc",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "amount_social_spend",
+              "source": "amount_social_spend",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "impressions",
+              "source": "impressions",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "93.84000000000003 -110.79245283018867"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "5d0836a3-6fe6-4c64-b17f-b30b0bd80cec",
+      "to": "4e78d7aa-b61d-4afd-a758-1ad924d99333"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
