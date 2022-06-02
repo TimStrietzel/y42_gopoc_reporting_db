@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "facebook_1-95995235-da64-4e5e-b34a-646d53a5cf6e.json",
+  "order": [
+    "src/Visualizations/Dashboards/facebook_1/Tab_1"
+  ],
+  "last_used_datasource_table_path": "src/Models/UI/facebook_model/facebook_model"
+}
