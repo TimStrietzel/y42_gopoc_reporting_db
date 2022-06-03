@@ -1,0 +1,56 @@
+{
+  "request_id": "220603210010_0df17fdf-797b-564d-9585-dd9a324c043c",
+  "status": "pending",
+  "request": {
+    "source_credentials": "4809532d-4eda-4d6b-99d3-a3ee05ce99a5",
+    "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+      "columns": [
+        "REACH",
+        "CTR",
+        "CAMPAIGN_ID",
+        "POST_ENGAGEMENT",
+        "AMOUNT_SPEND",
+        "CAMPAIGN_NAME",
+        "FREQUENCY",
+        "CPC",
+        "AMOUNT_SOCIAL_SPEND",
+        "IMPRESSIONS"
+      ],
+      "import": "FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL"
+    },
+    "created_at": "2022-06-03T21:00:10.167596+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_snowflake_import/FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL",
+        "id": "15:687cdbb8-66b6-4f2d-85a4-5ebd747583bb",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "TimStrietzel",
+        "repo": "y42_gopoc_reporting_db",
+        "commit_sha": "5b679a0d0c5b85fea5e51610d26055bc3887e6ec"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/update_Fb_1/.y42/run_220603210009_14a64d24-95a5-589c-8d56-79ea68392f27.json",
+      "trial": false
+    },
+    "state": {
+      "schema_hash": "8938262f1c7db2e5b2b1c9daec032b0d"
+    },
+    "previous_import_id": "220603203010_067256fb-b7fa-517a-a0d0-5cbaa1728770",
+    "previous_table_id": "220603203010_067256fb-b7fa-517a-a0d0-5cbaa1728770"
+  },
+  "created_at": "2022-06-03T21:00:10.167596+00:00",
+  "_signature": "qP0mvWZqhV7R1pKkvZJjjEUEBXklfQhnlupq0XyUBITJHDfbAjLS79fdC/EMTe2fpzVloG/1+7ij/oTUyVXZDw=="
+}
