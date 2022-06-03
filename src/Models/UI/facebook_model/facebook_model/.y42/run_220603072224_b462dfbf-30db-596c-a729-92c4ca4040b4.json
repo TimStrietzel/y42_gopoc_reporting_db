@@ -1,0 +1,40 @@
+{
+  "request_id": "220603072224_b462dfbf-30db-596c-a729-92c4ca4040b4",
+  "status": "pending",
+  "request": {
+    "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "4e78d7aa-b61d-4afd-a758-1ad924d99333"
+    },
+    "created_at": "2022-06-03T07:22:24.440780+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/facebook_model/facebook_model",
+        "id": "15:687cdbb8-66b6-4f2d-85a4-5ebd747583bb",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "TimStrietzel",
+        "repo": "y42_gopoc_reporting_db",
+        "commit_sha": "176c19146ff8a5a349c8002c11493e31dd3a9b69"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/update_Fb_1/.y42/run_220603070009_14a64d24-95a5-589c-8d56-79ea68392f27.json",
+      "trial": false
+    },
+    "previous_import_id": "220603065142_44ce84e2-d7ca-51c6-a79b-2b8af640e00e",
+    "previous_table_id": "8edb6d52dc0114e77b5e53a237e46eae"
+  },
+  "created_at": "2022-06-03T07:22:24.440780+00:00",
+  "_signature": "kF7wkjQmfObF+kg3kpocqj+BLn+xXu/bPln0KwQTgFchBBJStTzXaTZYMOBZ6B6R4PoF+bY/alvFsjP4r019Dw=="
+}
