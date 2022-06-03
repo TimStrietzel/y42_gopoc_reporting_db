@@ -1,6 +1,6 @@
 {
   "request_id": "220603113012_8a60f1d2-ff20-5b27-97e6-4d10432a8471",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "4809532d-4eda-4d6b-99d3-a3ee05ce99a5",
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
@@ -61,7 +61,67 @@
     "write_disposition": "TRUNCATE",
     "external_id": "471799f0-d703-4b78-9ef3-b8f8a429b78d",
     "storage_file": "gs://y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9/userUploads/v2/tap-snowflake/e386283c-8dbb-4c95-ae38-4d4dfdfad2b0",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-03T11:56:04.992144+00:00",
+    "row_count": 28000,
+    "current_import_row_count": 28000,
+    "size_in_bytes": 2420502,
+    "previous_id": "220603110010_710c725e-cb9e-59d8-83f2-e3675ea97a6d",
+    "columns": [
+      {
+        "field_name": "reach",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "amount_spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "frequency",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cpc",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "amount_social_spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220603113012_8a60f1d2-ff20-5b27-97e6-4d10432a8471",
+    "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9&t=220603113012_8a60f1d2-ff20-5b27-97e6-4d10432a8471&page=table"
   },
-  "_signature": "yqpTmClBTjTl3g9sLi70TdxohSRqkSZLN4OQV0gnw7JpWwxEijIgVVXyWJeu076Nxxxh17v3sHFf6jWngf8aDA=="
+  "finished_at": "2022-06-03T11:56:04.992279+00:00",
+  "_signature": "pZRzeVngtlqcLuiU+WhukHlOpZXNtagqcHuvddhZ0sp20Bih/aEogwLMIS8709XxaywqjsWA/jXrDi20xUm+Cw=="
 }
