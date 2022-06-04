@@ -1,6 +1,6 @@
 {
   "request_id": "220604160015_e84bfbe2-7b43-5592-abe8-950d516868d2",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "4809532d-4eda-4d6b-99d3-a3ee05ce99a5",
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
@@ -52,5 +52,8 @@
     "previous_table_id": "220604132932_f51c37ba-5849-5074-ad1a-4a229950875d"
   },
   "created_at": "2022-06-04T16:00:15.052743+00:00",
-  "_signature": "om3Dgfcyy+6/Z8Mo8wSkqJfMene6Guv/RVbx5A+EyUxQqV8X4OMZRmwyBQ/2p00SsmjiehY28qlFuvYBER7tAw=="
+  "failed_at": "2022-06-04T16:22:30.804636+00:00",
+  "error_code": 401,
+  "error_message": "unauthorized\ncredentials invalid or not present",
+  "_signature": "E4flyI+EzbAX/jVm6YBgcqZfSayASxx4RafWtA3eV2NKgtS64qLfIGFOjCxjiyNrWRBTCvuT6ReQTRBuzUXrBQ=="
 }
