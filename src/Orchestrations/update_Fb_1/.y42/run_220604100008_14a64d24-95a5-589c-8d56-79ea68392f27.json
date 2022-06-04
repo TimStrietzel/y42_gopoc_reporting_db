@@ -60,10 +60,10 @@
   },
   "created_at": "2022-06-04T10:00:08.950394+00:00",
   "finished_at": null,
-  "latest_pulse_at": "2022-06-04T11:00:23.851634+00:00",
-  "updated_at": "2022-06-04T11:00:23.851634+00:00",
+  "latest_pulse_at": "2022-06-04T11:30:28.752809+00:00",
+  "updated_at": "2022-06-04T11:30:28.752809+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "352c0a97-d153-42a6-a7e1-1eec4c9b4c06",
-  "_signature": "+o62ZVRL3sEpsiSUij6y7LUUdl7t+TMJTkqfktmci5wxZvdh7rjffkzZ4HVv1qDsW2kAewavz3O2yFIPD8BeCA=="
+  "_lock_token": "ce435e99-6513-455e-9482-1a9d522c3915",
+  "_signature": "rSnEyAgmXHKxROoKauyf6n6B6UrBXJowYPsj3CLqmPAK5e7wY3QN73nNJXQyCF+BXyEHr8jNSCHmUMiMuHYGBg=="
 }
