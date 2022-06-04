@@ -1,6 +1,6 @@
 {
   "request_id": "220604100013_f9c5f14c-919e-5ec2-aaaf-cf1f04753b82",
-  "status": "ready",
+  "status": "pending",
   "request": {
     "source_credentials": "4809532d-4eda-4d6b-99d3-a3ee05ce99a5",
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
@@ -114,7 +114,14 @@
       }
     ],
     "table_name": "220604100013_f9c5f14c-919e-5ec2-aaaf-cf1f04753b82",
-    "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9&t=220604100013_f9c5f14c-919e-5ec2-aaaf-cf1f04753b82&page=table"
+    "external_url": "https://console.cloud.google.com/bigquery?p=y42-solution-engineering&d=y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9&t=220604100013_f9c5f14c-919e-5ec2-aaaf-cf1f04753b82&page=table",
+    "export_finished_at": "2022-06-04T10:22:35.735619+00:00",
+    "external_state": {
+      "schema_hash": "8938262f1c7db2e5b2b1c9daec032b0d"
+    },
+    "write_disposition": "TRUNCATE",
+    "storage_file": "gs://y42_gopoc_reporting_366936a1046d4341b06897c88c4a00f9/userUploads/v2/tap-snowflake/63c10613-0a9d-4e32-995c-4d18da3c744d",
+    "partial": false
   },
-  "_signature": "qLuBQmioQX7FWR53YXJmxSPvGcpJoXqZa/9sk1oAV1PhPiX2pOG2rc+4f3a0B9jscIXPom/B8xY7YVdVQiZ7DQ=="
+  "_signature": "C70XWHjOOdVHrvXSrEASn5WCTZtChdiobHUBFhsUXD5/bm6M5J2Jkm+T3kBDgbYgJJTgSDPQYkbjYhdbMw9fBA=="
 }
