@@ -1,6 +1,6 @@
 {
   "request_id": "220715003013_aee7377f-c4ea-5741-ad50-4d033e1df89f",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "4809532d-4eda-4d6b-99d3-a3ee05ce99a5",
     "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
@@ -52,5 +52,8 @@
     "previous_table_id": "220604132932_f51c37ba-5849-5074-ad1a-4a229950875d"
   },
   "created_at": "2022-07-15T00:30:13.015573+00:00",
-  "_signature": "NWCLZ7n0zVKwAjVPVOoxKAReV39DjVuKGPzLShYdsyaxBsRqU8dncXPx2OJPASmiPW69V8O8KM0XLPnn0uA8Dg=="
+  "failed_at": "2022-07-15T00:39:34.281914+00:00",
+  "error_code": 404,
+  "error_message": "stream not found",
+  "_signature": "yYhNXVUzwg5I9dsIAsZday+AIPvuAz5PLp1md31PprT8cAxK7ZeknRErQqOOTRdBLdc6qeZQ/L4Qpg40R4HTBw=="
 }
