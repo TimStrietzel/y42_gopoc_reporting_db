@@ -1,0 +1,56 @@
+{
+  "request_id": "220715173010_8faf9980-2e14-5d55-83cb-abf8b1a25541",
+  "status": "pending",
+  "request": {
+    "source_credentials": "4809532d-4eda-4d6b-99d3-a3ee05ce99a5",
+    "target_credentials": "b56a9c92-c96f-4d63-a8a2-f2b22b28235c",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+      "columns": [
+        "REACH",
+        "CTR",
+        "CAMPAIGN_ID",
+        "POST_ENGAGEMENT",
+        "AMOUNT_SPEND",
+        "CAMPAIGN_NAME",
+        "FREQUENCY",
+        "CPC",
+        "AMOUNT_SOCIAL_SPEND",
+        "IMPRESSIONS"
+      ],
+      "import": "FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL"
+    },
+    "created_at": "2022-07-15T17:30:10.729359+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_snowflake_import/FACEBOOK_ADS_INSIGHTS_CLIENT_TEST_ALL_2000_TABLES_UNION_ALL",
+        "id": "15:687cdbb8-66b6-4f2d-85a4-5ebd747583bb",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "TimStrietzel",
+        "repo": "y42_gopoc_reporting_db",
+        "commit_sha": "3e46ff4ccc1d150dad8a0e0a5282c30ae29b98af"
+      }
+    },
+    "context": {
+      "company_id": 15,
+      "company_slug": "gopocorg",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/update_Fb_1/.y42/run_2eb0aad4-5f7b-41b9-90ee-efa56953940c.json",
+      "trial": false
+    },
+    "state": {
+      "schema_hash": "8938262f1c7db2e5b2b1c9daec032b0d"
+    },
+    "previous_import_id": "220604132932_f51c37ba-5849-5074-ad1a-4a229950875d",
+    "previous_table_id": "220604132932_f51c37ba-5849-5074-ad1a-4a229950875d"
+  },
+  "created_at": "2022-07-15T17:30:10.729359+00:00",
+  "_signature": "au9VWTzQAdHJ3FClb56easV1W7Esv/5ViOsvxc0BOIKzfEq3KaD76Chpgrwk7ucWiQoYjFCy4kE8eeB3DSQCBg=="
+}
