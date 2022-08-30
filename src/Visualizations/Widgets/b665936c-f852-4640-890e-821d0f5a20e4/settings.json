@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.4/visualization/visualization-widget-settings.json",
   "chart_type": "bar_line_chart",
   "settings": {
     "series": [
@@ -297,7 +297,6 @@
       "alias": "VALUE_campaign_id_6d58abef_3d3f_4a02_ac65_a1afec0c7e35",
       "id": "6d58abef_3d3f_4a02_ac65_a1afec0c7e35",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -308,7 +307,6 @@
       "alias": "AVG_reach_8c51f436_a764_4bef_8d71_916fb3478912",
       "id": "8c51f436_a764_4bef_8d71_916fb3478912",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -319,7 +317,6 @@
       "alias": "AVG_frequency_91e33a51_75e2_4ac9_9328_01075863aaea",
       "id": "91e33a51_75e2_4ac9_9328_01075863aaea",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     },
@@ -330,7 +327,6 @@
       "alias": "AVG_impressions_fd89043a_2545_43af_be69_c70f72e1a2b3",
       "id": "fd89043a_2545_43af_be69_c70f72e1a2b3",
       "lowCodeString": null,
-      "functionTree": null,
       "show_in_percentage": false,
       "filters": []
     }
