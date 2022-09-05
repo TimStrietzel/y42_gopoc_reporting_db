@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "advertising_channel_sub_type",
+    "campaign_budget",
+    "bidding_strategy_type",
+    "name",
+    "id",
+    "resource_name",
+    "loaded_at",
+    "advertising_channel_type",
+    "bidding_strategy",
+    "client_id",
+    "status"
+  ],
+  "import": "GOOGLE_ADS_TABLE_Y42_CLIENT_GOOGLE_ADS_CAMPAIGN_ALL_CLIENTS"
+}

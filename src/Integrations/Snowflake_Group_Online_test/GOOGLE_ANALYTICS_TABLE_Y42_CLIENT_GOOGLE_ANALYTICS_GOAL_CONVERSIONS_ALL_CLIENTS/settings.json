@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "ga_date",
+    "ga_channelgrouping",
+    "ga_goal2completions",
+    "loaded_at",
+    "ga_goal4completions",
+    "ga_goalcompletionsall",
+    "client_id",
+    "ga_campaign",
+    "ga_country",
+    "ga_medium",
+    "ga_source",
+    "ga_goal5completions",
+    "ga_goal1completions",
+    "ga_goal3completions"
+  ],
+  "import": "GOOGLE_ANALYTICS_TABLE_Y42_CLIENT_GOOGLE_ANALYTICS_GOAL_CONVERSIONS_ALL_CLIENTS"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "date",
+    "ctr",
+    "site_url",
+    "clicks",
+    "impressions",
+    "position",
+    "search_type",
+    "device",
+    "loaded_at",
+    "client_id"
+  ],
+  "import": "GOOGLE_SEARCH_TABLE_Y42_CLIENT_GOOGLE_SEARCH_PERFORMANCE_ALL_CLIENTS"
+}

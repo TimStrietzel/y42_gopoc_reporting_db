@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "locationname",
+    "metric",
+    "starttime",
+    "value",
+    "loaded_at",
+    "client_id"
+  ],
+  "import": "GOOGLE_MY_BUSINESS_TABLE_Y42_CLIENT_GOOGLE_MY_BUSINESS_LOCATIONS_REPORT_INSIGHTS_ALL_CLIENTS"
+}

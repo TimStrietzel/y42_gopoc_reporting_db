@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "date",
+    "ad_type",
+    "ad_name",
+    "impressions",
+    "loaded_at",
+    "client_id",
+    "campaign_name",
+    "ad_group_name",
+    "ad_id",
+    "cost_micros",
+    "clicks",
+    "ad_group_id",
+    "resource_name",
+    "campaign_id"
+  ],
+  "import": "GOOGLE_ADS_TABLE_Y42_CLIENT_GOOGLE_ADS_AD_METRICS_ALL_CLIENTS"
+}

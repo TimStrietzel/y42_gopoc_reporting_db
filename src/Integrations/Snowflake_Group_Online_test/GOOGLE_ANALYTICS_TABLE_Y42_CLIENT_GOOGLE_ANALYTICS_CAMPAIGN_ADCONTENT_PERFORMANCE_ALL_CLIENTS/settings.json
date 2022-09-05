@@ -1,0 +1,23 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "ga_date",
+    "ga_newusers",
+    "ga_pageviews",
+    "ga_channelgrouping",
+    "ga_sourcemedium",
+    "ga_adcontent",
+    "loaded_at",
+    "client_id",
+    "ga_campaign",
+    "ga_transactions",
+    "ga_countryisocode",
+    "ga_sessionduration",
+    "ga_transactionrevenue",
+    "ga_adgroup",
+    "ga_users",
+    "ga_bounces",
+    "ga_sessions"
+  ],
+  "import": "GOOGLE_ANALYTICS_TABLE_Y42_CLIENT_GOOGLE_ANALYTICS_CAMPAIGN_ADCONTENT_PERFORMANCE_ALL_CLIENTS"
+}

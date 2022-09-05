@@ -1,0 +1,30 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "impression_device",
+    "inline_link_clicks",
+    "reach",
+    "cost_per_inline_link_click",
+    "impressions",
+    "loaded_at",
+    "client_id",
+    "frequency",
+    "campaign_name",
+    "ad_id",
+    "date_start",
+    "account_id",
+    "cost_per_inline_post_engagement",
+    "unique_clicks",
+    "inline_post_engagement",
+    "spend",
+    "adset_id",
+    "platform_position",
+    "cost_per_unique_inline_link_click",
+    "clicks",
+    "unique_inline_link_clicks",
+    "publisher_platform",
+    "campaign_id",
+    "cost_per_unique_click"
+  ],
+  "import": "FACEBOOK_ADS_TABLE_Y42_CLIENT_FACEBOOK_ADS_ADS_INSIGHTS_ALL_CLIENTS"
+}

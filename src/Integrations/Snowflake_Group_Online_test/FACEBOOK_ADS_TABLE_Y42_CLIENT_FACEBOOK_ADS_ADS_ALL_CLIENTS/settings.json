@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/snowflake/0.0.0/table",
+  "columns": [
+    "bid_type",
+    "id",
+    "loaded_at",
+    "client_id"
+  ],
+  "import": "FACEBOOK_ADS_TABLE_Y42_CLIENT_FACEBOOK_ADS_ADS_ALL_CLIENTS"
+}
